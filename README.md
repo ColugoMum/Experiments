@@ -1,6 +1,6 @@
 # Exprements
 存储一些商品识别的实验结果及日志
-# 针对[零售行业商品特征学习数据集](https://aistudio.baidu.com/aistudio/datasetdetail/108651)进行相关实验：
+## 针对[零售行业商品特征学习数据集](https://aistudio.baidu.com/aistudio/datasetdetail/108651)进行相关实验：
  |  model  | num epoch |  batch size/gpu cards |  learning rate  |  use cutout  |  use ssld  |  top1 recall  | 配置文件 |
  | :----: | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
  | PP_LCNet_x2_5 | 400 | 256/4 | 0.01 | N | N | [98.189%](./exprements/log/98189.log) | [配置文件](./exprements/PaddleClas/ppcls/configs/GeneralRecognition/GeneralRecognition_PPLCNet_x2_5_01.yaml) |
