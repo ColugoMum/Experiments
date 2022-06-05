@@ -1,5 +1,5 @@
 # Exprements
-存储一些商品识别的实验结果及日志
+目前主要针对[零售行业商品特征学习数据集](https://aistudio.baidu.com/aistudio/datasetdetail/108651)及[RP2K](https://www.pinlandata.com/rp2k_dataset)两个数据集进行相关实验，主要存储一些商品识别的实验结果及日志。
 ## 针对[零售行业商品特征学习数据集](https://aistudio.baidu.com/aistudio/datasetdetail/108651)进行相关实验：
  |  model  | num epoch |  batch size/gpu cards |  learning rate  |  use cutout  |  use ssld  |  top1 recall  | 配置文件 |
  | :----: | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
