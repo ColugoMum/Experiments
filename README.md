@@ -16,7 +16,7 @@
  | PP_LCNet_x2_5 | 400 | 128/4 | 0.004 | Y | Y | [98.38%](./exprements/log/98376.log) | [配置文件](./exprements/PaddleClas/ppcls/configs/GeneralRecognition/GeneralRecognition_PPLCNet_x2_5_004_cutout.yaml) |
 
 ## 针对[RP2K](https://www.pinlandata.com/rp2k_dataset)进行相关实验：
- |  model  | num epoch |  batch size/gpu cards |  learning rate  |  top1 recall  |  
- | :----: | :---- | :---- | :---- | :---- |
- | PP_LCNet_x2_5 | 100 | 256/1 | 0.01 | [96.10%](./best_model/RP2K/Zhaoyian/train_zhaoyian.log) |  
- | PP_LCNetV2 | 100 | 256/1 | 0.01 | [96.65%](./exprements/log/98216.log) |
+ |  model  | num epoch |  batch size/gpu cards |  learning rate  |  top1 recall  |  预训练模型  |
+ | :----: | :---- | :---- | :---- | :---- | :---- |
+ | PP_LCNet_x2_5 | 100 | 256/1 | 0.01 | [96.10%](./best_model/RP2K/Zhaoyian/train_zhaoyian.log) |  [预训练模型](./best_model/RP2K/Zhaoyian/best_model.pdparams) |
+ | PP_LCNetV2 | 100 | 256/1 | 0.01 | [96.65%](./best_model/RP2K/PPLCNETV2/train.log) | [预训练模型](./best_model/RP2K/PPLCNETV2/train_model/best_model.pdparams) |
