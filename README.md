@@ -18,5 +18,5 @@
 ## 针对[RP2K](https://www.pinlandata.com/rp2k_dataset)进行相关实验：
  |  model  | num epoch |  batch size/gpu cards |  learning rate  |  top1 recall  |  
  | :----: | :---- | :---- | :---- | :---- |
- | PP_LCNet_x2_5 | 100 | 256/1 | 0.01 | [96.10%](./exprements/log/98189.log) |  
+ | PP_LCNet_x2_5 | 100 | 256/1 | 0.01 | [96.10%](./best_model/RP2K/Zhaoyian/train_zhaoyian.log) |  
  | PP_LCNetV2 | 100 | 256/1 | 0.01 | [96.65%](./exprements/log/98216.log) |
