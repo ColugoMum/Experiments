@@ -27,7 +27,9 @@ MODEL_URLS = {
     "PPHGNet_tiny":
     "https://paddle-imagenet-models-name.bj.bcebos.com/dygraph/legendary_models/PPHGNet_tiny_pretrained.pdparams",
     "PPHGNet_small":
-    "https://paddle-imagenet-models-name.bj.bcebos.com/dygraph/legendary_models/PPHGNet_small_pretrained.pdparams"
+    "https://paddle-imagenet-models-name.bj.bcebos.com/dygraph/legendary_models/PPHGNet_small_pretrained.pdparams",
+    "PPHGNet_base": 
+    "https://paddle-imagenet-models-name.bj.bcebos.com/dygraph/legendary_models/PPHGNet_base_pretrained.pdparams"
 }
 
 __all__ = list(MODEL_URLS.keys())
@@ -344,7 +346,7 @@ def PPHGNet_small(pretrained=False, use_ssld=False, **kwargs):
     return model
 
 
-def PPHGNet_base(pretrained=False, use_ssld=False, **kwargs):
+def PPHGNet_base(pretrained=False, use_ssld=True, **kwargs):
     """
     PPHGNet_base
     Args:
