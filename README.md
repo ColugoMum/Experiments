@@ -23,7 +23,7 @@ RP2K数据集收录了50万+张零售商品货架图片，商品种类超过2,00
 ## 消融实验
  |  model  | num epoch |  batch size/gpu cards |embedding size  | learning rate  |  cutout  |  RandomErasing  |  测试分辨率  |  top1 recall  | 配置文件 |
  | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-  | PP_LCNet_x2_5 | 100 | 256/1 |  512  |  0.02 |  N  |  N  |  224  | [96.40%](https://git.openi.org.cn/ColugoMum/Exprements-public/src/branch/main/model/Pre-trained_Model/PPLCNET_x_2_5/PPLCNet_x_2_5-base-log.txt) | [配置文件]() |
+  | PP_LCNet_x2_5 | 100 | 256/1 |  512  |  0.02 |  N  |  N  |  224  | [96.40%](./model/Pre-trained_Model/PPLCNET_x_2_5/PPLCNet_x_2_5-base-log.txt) | [配置文件]() |
    | PP_LCNet_x2_5 | 100 | 256/1 |  512  |  0.02 |  N  |  N  |  288  | [96.76%](https://git.openi.org.cn/ColugoMum/Exprements-public/src/branch/main/model/Pre-trained_Model/PPLCNET_x_2_5/288-log.txt) | [配置文件]() |
  | PP_LCNet_x2_5 | 100 | 256/1 |  512  |  0.02 |  Y  |  N  |  288  | [96.90%](https://git.openi.org.cn/ColugoMum/Exprements-public/src/branch/main/model/Pre-trained_Model/PPLCNET_x_2_5/PPLCNET_x_2_5-512-log.txt) | [配置文件](https://git.openi.org.cn/ColugoMum/Exprements-public/src/branch/main/PaddleClas/ppcls/configs/Exprements/PPLCNet_x_2_5/PPLCNet_x_2_5-512-0.02-256-cutout.yaml) |
  | PP_LCNet_x2_5 | 100 | 256/1 |  4096  |  0.02 |  N  |  N  |  288  | [96.79%]() | [配置文件](https://git.openi.org.cn/ColugoMum/Exprements-public/src/branch/main/PaddleClas/ppcls/configs/Exprements/PPLCNet_x_2_5/PPLCNet_x_2_5-4096-0.02-256.yaml) |
