@@ -46,7 +46,7 @@ RP2K数据集收录了50万+张零售商品货架图片，商品种类超过2,00
 3. 所有模型训练均基于OpenI所提供的A100服务器(GPU数：1，CPU数：8，内存(MB)：65536，共享内存(MB)：32768)。
 
 # 招募
-欢迎开发者们加入本仓库的[共建](https://git.openi.org.cn/ColugoMum/Exprements-public/issues/1)！ColugoMum渴望和开发者们一道，推动我国AI+零售行业新变革！
+欢迎开发者们加入本仓库的[共建](https://github.com/ColugoMum/Exprements/issues/1)！ColugoMum渴望和开发者们一道，推动我国AI+零售行业新变革！
 
 # 鸣谢
 1. 感谢[基于MindSpore AI框架实现零售商品识别](https://github.com/pprp/GoodsRecognition.MindSpore)提供相关trick；
