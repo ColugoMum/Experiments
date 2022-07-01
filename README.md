@@ -63,3 +63,11 @@ RP2K数据集收录了50万+张零售商品货架图片，商品种类超过2,00
       primaryClass={cs.CV}
 }
 ```
+```
+@article{peng2020rp2k, ti​​tle
+  ={RP2K: A Large-Scale Retail Product Dataset for Fine-Grained Image Classification},
+  author={Peng, Jingtian and Xiao, Chang and Li, Yifan},
+  journal={arXiv preprint arXiv:2006.12634},
+  年={2020}
+}
+```
